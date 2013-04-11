@@ -1,0 +1,23 @@
+{
+	"name": "majkl578/nette-symfony-validator",
+	"type": "nette-addon",
+	"keywords": ["nette", "symfony", "validator", "addon"],
+	"authors": [
+		{
+			"name": "Michael Moravec"
+		}
+	],
+	"description": "Integration of Symfony Validator component into Nette 2.",
+	"license": "MIT",
+	"require": {
+		"php": ">=5.3.3",
+		"symfony/validator": "2.2.*",
+		"doctrine/common": "2.3.*",
+		"nette/nette": "2.0.*"
+	},
+	"autoload": {
+		"psr-0": {
+			"Majkl578\\NetteSymfonyValidator": "lib/"
+		}
+	}
+}
