@@ -15,6 +15,12 @@
 		"doctrine/common": "2.3.*",
 		"nette/nette": "2.0.*"
 	},
+	"require-dev": {
+		"doctrine/orm": "2.3.*"
+	},
+	"suggest": {
+		"doctrine/orm": "2.3.*"
+	},
 	"autoload": {
 		"psr-0": {
 			"Majkl578\\NetteSymfonyValidator": "lib/"
